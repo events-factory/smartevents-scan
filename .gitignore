@@ -79,3 +79,9 @@ yarn-error.*
 
 # @end expo-cli
 config.bat
+
+# security hardening: env + editor dirs
+!.env.example
+!.env.sample
+!.env.template
+.claude/
